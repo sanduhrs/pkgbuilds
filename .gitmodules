@@ -22,3 +22,6 @@
 [submodule "php-sha3"]
 	path = php-sha3
 	url = ssh+git://aur@aur-dev.archlinux.org:2222/php-sha3.git/
+[submodule "php-mailparse"]
+	path = php-mailparse
+	url = ssh+git://aur@aur-dev.archlinux.org:2222/php-mailparse.git/
