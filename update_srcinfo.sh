@@ -3,13 +3,8 @@
 PACKAGE=$1
 VERSION=$2
 
-if [[ -z "${PACKAGE}" ]]; then
-    echo "please specify package name"
-    exit 1
-fi
-
-if [[ -z "${VERSION}" ]]; then
-    echo "please specify package version"
+if [[ -z "${PACKAGE}" ]] || [[ -z "${VERSION}" ]]; then
+    echo "usage: $0 PACKAGE VERSION"
     exit 1
 fi
 

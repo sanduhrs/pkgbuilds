@@ -3,7 +3,7 @@
 PACKAGE=$1
 
 if [[ -z "${PACKAGE}" ]]; then
-    echo "please specify package name"
+    echo "usage: $0 PACKAGE"
     exit 1
 fi
 
