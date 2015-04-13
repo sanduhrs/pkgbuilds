@@ -30,5 +30,4 @@ rm -r "${TEMP}"
 
 ssh -p${AUR4PORT} ${AUR4USER}@${AUR4HOST} setup-repo "${PACKAGE}"
 git submodule add "ssh+git://${AUR4USER}@${AUR4HOST}:${AUR4PORT}/${PACKAGE}.git/" "${PACKAGE}"
-git submodule add "ssh+git://${AURs4USER}@${AUR4HOST}:${AUR4PORT}/${PACKAGE}.git/" "${PACKAGE}"
 git submodule update
