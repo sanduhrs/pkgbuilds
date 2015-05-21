@@ -1,27 +1,27 @@
 [submodule "nodejs-pageres"]
 	path = nodejs-pageres
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/nodejs-pageres.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/nodejs-pageres.git/
 [submodule "php-box"]
 	path = php-box
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/php-box.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/php-box.git/
 [submodule "phpcpd"]
 	path = phpcpd
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/phpcpd.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/phpcpd.git/
 [submodule "phpdcd"]
 	path = phpdcd
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/phpdcd.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/phpdcd.git/
 [submodule "php-go"]
 	path = php-go
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/php-go.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/php-go.git/
 [submodule "phpmd"]
 	path = phpmd
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/phpmd.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/phpmd.git/
 [submodule "php-security-checker"]
 	path = php-security-checker
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/php-security-checker.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/php-security-checker.git/
 [submodule "php-sha3"]
 	path = php-sha3
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/php-sha3.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/php-sha3.git/
 [submodule "php-mailparse"]
 	path = php-mailparse
-	url = ssh+git://aur@aur-dev.archlinux.org:2222/php-mailparse.git/
+	url = ssh+git://aur@aur-dev.archlinux.org/php-mailparse.git/
