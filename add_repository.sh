@@ -12,7 +12,7 @@ if [[ -d "${PACKAGE}" ]]; then
     exit 1
 fi
 
-AUR4HOST=${AUR4HOST:-aur-dev.archlinux.org}
+AUR4HOST=${AUR4HOST:-aur4.archlinux.org}
 AUR4USER=${AUR4USER:-aur}
 
 TEMP="$(mktemp -d --tmpdir aurpackage.XXXXX)"
