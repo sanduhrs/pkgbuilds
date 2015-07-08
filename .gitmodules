@@ -25,3 +25,6 @@
 [submodule "php-mailparse"]
 	path = php-mailparse
 	url = ssh+git://aur@aur4.archlinux.org/php-mailparse.git/
+[submodule "testssl.sh"]
+	path = testssl.sh
+	url = ssh+git://aur@aur4.archlinux.org/testssl.sh.git/
