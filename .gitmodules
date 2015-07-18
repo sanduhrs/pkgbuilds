@@ -28,3 +28,6 @@
 [submodule "testssl.sh"]
 	path = testssl.sh
 	url = ssh+git://aur@aur4.archlinux.org/testssl.sh.git/
+[submodule "testssl.sh-git"]
+	path = testssl.sh-git
+	url = ssh+git://aur@aur4.archlinux.org/testssl.sh-git.git/
