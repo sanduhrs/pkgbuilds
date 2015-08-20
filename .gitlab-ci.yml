@@ -1,7 +1,7 @@
 ci:
   script:
     - pacman -Syu --noconfirm
-    - sed -i "s#ssh+git://aur@aur.archlinux.org#https://aur.archlinux.org/cgit#" .gitmodules
+    - sed -i "s#ssh+git://aur@aur.archlinux.org#https://aur.archlinux.org/#" .gitmodules
     - git submodule init
     - git submodule update
     - rake
