@@ -1,13 +1,7 @@
-jobs:
-- script:
-  - pacman -Syu --noconfirm
-  - sed -i "s#ssh+git://aur@aur4.archlinux.org#https://aur4.archlinux.org/cgit#" .gitmodules
-  - git submodule init
-  - git submodule update
-  - rake
-  name: ''
-  branches: true
-  tags: true
-  runner:
-deploy_jobs: []
-skip_refs:
+ci:
+  script:
+    - pacman -Syu --noconfirm
+    - sed -i "s#ssh+git://aur@aur.archlinux.org#https://aur.archlinux.org/cgit#" .gitmodules
+    - git submodule init
+    - git submodule update
+    - rake
