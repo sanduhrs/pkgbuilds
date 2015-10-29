@@ -31,3 +31,6 @@
 [submodule "testssl.sh-git"]
 	path = testssl.sh-git
 	url = ssh+git://aur@aur.archlinux.org/testssl.sh-git.git/
+[submodule "php-deprecation-detector"]
+	path = php-deprecation-detector
+	url = ssh+git://aur@aur.archlinux.org/php-deprecation-detector.git/
