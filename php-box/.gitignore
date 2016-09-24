@@ -1,0 +1,8 @@
+*.pkg.*
+pkg/
+src/
+*.pkg.*.sig
+*.src.tar.gz
+*.phar
+LICENSE
+*.sig
